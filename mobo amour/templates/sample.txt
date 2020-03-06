@@ -1,0 +1,50 @@
+<br>
+RAM <br>
+    <br>
+ROM<br>
+    Enter ROM amount on your device<br>
+
+CAMERA<br>
+rear focus<br>
+    enter rear focus in megapixel<br>
+selfie focus<br>
+    enter fron camera focus in megapixels<br>
+
+screen<br>
+screen type<br>
+    choose IPS LCD or AMOLED or OTHERS<br>
+ASPECT RATIO<br><br>
+    give aspect ration as number:number<br>
+resolution<br>
+    give resolution in numberxnumberv
+size in inches <br>
+    give size on float<br>
+
+performance<br>
+processor cpu<br>
+    snapdragon <model number> <br>
+    mediatrek  <model number><br>
+processor GPU<br>
+    name modelno<br>
+android version<br>
+    choose number<br>
+
+physique<br>
+weight in gms <br>
+    enter number in gms<br>
+battery power<br>
+    enter number on mah<br>
+finger print possition<br>
+    enter rear or front or no<br>
+
+features<br>
+number of sim<br>
+    enter number of as a integer<br>
+ui type<br>
+    <ui name> <version><br>
+face unlock support <br>
+    yes or no<br>
+volte support <br>
+    yes or no<br>
+    
+

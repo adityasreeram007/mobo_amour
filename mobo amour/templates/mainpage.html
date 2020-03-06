@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+<style>
+    .content{
+        font-family: ubuntu;
+        margin-top:20%;
+        font-size:50px;
+        text-align: center;
+    }
+   
+    .smartphone {
+        
+       
+        width: 330px;
+        height: 660px;
+
+        
+        border: 16px black solid;
+        border-top-width: 60px;
+        border-bottom-width: 60px;
+        border-radius: 36px;
+        background-image:linear-gradient(#2193b0,#6dd5ed);
+      }
+      .box{
+        
+          margin-top:3%;
+          margin-left: 4%
+          
+          
+      }
+      body{
+        
+        
+        background-color:  #343d46;
+       
+        
+  
+      }
+      
+      /* The horizontal line on the top of the device */
+    
+    .data4{
+        animation:blinkingText 1s infinite;
+    }
+    @keyframes blinkingText{
+        0%{     color: #000;    }
+        
+        50%{    color: transparent; }
+
+        100%{   color: #000;    }
+    }
+    
+    
+    .inp{
+        margin-top: 1%;
+        border-radius: 15px;
+        border-color: #2193b0;
+        border-style: solid;
+        border-width: 3px;
+        width: 250px;
+        background-color: #9aa6a6;
+        color:#ffffff;
+        
+        
+    }
+    .description{
+        margin-top: 2%;
+        color: #ffffff;
+        
+        font-family: ubuntu bold;
+        font-size: 20px;
+    }
+    .box1{
+        margin-top:-41.8%;
+        margin-left:30%;
+    }
+    .box2{
+        margin-top: -8.8%;
+        margin-left:50%;
+    }
+    .box3{
+        margin-top:-10.3%;
+        margin-left:70%;
+    }
+    .box4{
+        margin-top:3.5%;
+        margin-left:30%;
+    }
+    .box5{
+        margin-top:-10.8%;
+        margin-left:50%;
+    }
+    .box6{
+        margin-top:-10%;
+        margin-left:70%;
+    }
+    .box7{
+        margin-left:11.3%;
+        margin-top:6.5%;
+    }
+    ::placeholder{
+        color:black;
+        opacity: 1;
+        text-align: center;
+    }
+
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" style="color: #ffffff;font-family: ubuntu;">&#129321 MoBo_AmOUR!</a>
+   <form action="http://127.0.0.1:5000/sample" method="POST" style="margin-left:78%;">     <button class="btn btn-primary"   >sample</button></form>
+        <button class="btn btn-danger"  style="margin-left:1%;">logout</button>
+    </nav>
+    <div class="box">
+        <div class="smartphone">
+            <div class="content">
+            <p class="data1">Welcome</p> 
+            <p class="data2">to</p> 
+            <p class="data3">MoboAmour!</p>
+            <p class="data4" style="font-size:90px;">&#129321</p>
+        </div>
+       
+        </div>
+    </div>  
+   
+    
+   
+        <form method="POST" action="">
+            <div class="box1">
+            <p class="description">MeMOrY!</p>
+            <input type="number" class="inp" placeholder="rAM" required><br>
+            <input type="number" class="inp" placeholder="rOM" required><br></div>
+            <div class="box2">
+            <p class="description">CamERa!</p>
+            <input type="number" class="inp" placeholder="ReAr FoCUs" required><br>
+            <input type="number" class="inp" placeholder="SeLfIe FoCUs" required><br>
+            <input type="number" class="inp" placeholder="CAmeRa FpS rATe" required><br></div>
+            <div class="box3">
+            <p class="description">sCreeN!</p>
+            <input type="text" class="inp" placeholder="sCeEnN tYpE" required><br>
+            <input type="text" class="inp" placeholder="ASpEcT RAtIo" required><br>
+            <input type="text" class="inp" placeholder="REslLUtIOn" required><br>
+            <input type="text" class="inp" placeholder="SiZe in INcHes" required><br></div>
+            <div class="box4">
+            <p class="description">PeRfOrMaNcE!</p>
+            <input type="text" class="inp" placeholder="PrOCeSsOr Cpu" required><br>
+            <input type="text" class="inp" placeholder="PrOCeSsoR gPU" required><br>
+            <input type="text" class="inp" placeholder="aNdRoId VeRsIoN" required><br></div>
+            <div class="box5">
+            <p class="description">pHySiQuE!</p>
+            
+            <input type="number" class="inp" placeholder="wEIgHt In GmS" required><br>
+            <input type="number" class="inp" placeholder="bATtEry pOWeR" required><br>
+            <input type="text" class="inp" placeholder="FiNgEr pRiNt pOsSiTiON" required><br></div>
+            <div class="box6">
+
+            <p class="description">FeAtUrEs!</p>
+            <input type="number" class="inp" placeholder="nUmBeR Of sIM" required><br>
+            <input type="text" class="inp" placeholder="ui TyPe" required><br>
+            <input type="text" class="inp" placeholder="FaCe UnLoCK sUPpoRT" required><br>
+            <input type="text" class="inp" placeholder="voLTE SupPoRT" required><br></div>
+
+            <div class="box7">
+                <button class="btn btn-primary" type="submit" >Estimate</button>
+            </div>
+            
+
+
+        </form>
+    
+
+
+</body>
+</html>
